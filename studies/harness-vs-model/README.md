@@ -1,7 +1,10 @@
 # harness-vs-model
 
-**Bigger model or better harness?** This repository holds the benchmarks for a
-board that answers that with one design: hold the model fixed and change only the
+> **Status: in setup.** Arms, models and run counts are being agreed with
+> ConnectOnion; nothing below is final until [PREREGISTRATION.md](PREREGISTRATION.md)
+> is frozen.
+
+**Bigger model or better harness?** This study answers that with one design: hold the model fixed and change only the
 harness, then compare that against holding the harness fixed and changing the
 model. Every cell runs the same cases, so the two effects are measured on the same
 ground and can be put side by side.
