@@ -1,0 +1,240 @@
+task_id	service	tier	local_no_account	needs
+filesystem/easy/file_context/file_splitting	filesystem	easy	yes	test folders (download)
+filesystem/easy/file_context/pattern_matching	filesystem	easy	yes	test folders (download)
+filesystem/easy/file_context/uppercase	filesystem	easy	yes	test folders (download)
+filesystem/easy/file_property/largest_rename	filesystem	easy	yes	test folders (download)
+filesystem/easy/file_property/txt_merging	filesystem	easy	yes	test folders (download)
+filesystem/easy/folder_structure/structure_analysis	filesystem	easy	yes	test folders (download)
+filesystem/easy/legal_document/file_reorganize	filesystem	easy	yes	test folders (download)
+filesystem/easy/papers/papers_counting	filesystem	easy	yes	test folders (download)
+filesystem/easy/student_database/duplicate_name	filesystem	easy	yes	test folders (download)
+filesystem/easy/student_database/recommender_name	filesystem	easy	yes	test folders (download)
+filesystem/standard/desktop/music_report	filesystem	standard	yes	test folders (download)
+filesystem/standard/desktop/project_management	filesystem	standard	yes	test folders (download)
+filesystem/standard/desktop/timeline_extraction	filesystem	standard	yes	test folders (download)
+filesystem/standard/desktop_template/budget_computation	filesystem	standard	yes	test folders (download)
+filesystem/standard/desktop_template/contact_information	filesystem	standard	yes	test folders (download)
+filesystem/standard/desktop_template/file_arrangement	filesystem	standard	yes	test folders (download)
+filesystem/standard/file_context/duplicates_searching	filesystem	standard	yes	test folders (download)
+filesystem/standard/file_context/file_merging	filesystem	standard	yes	test folders (download)
+filesystem/standard/file_context/file_splitting	filesystem	standard	yes	test folders (download)
+filesystem/standard/file_context/pattern_matching	filesystem	standard	yes	test folders (download)
+filesystem/standard/file_context/uppercase	filesystem	standard	yes	test folders (download)
+filesystem/standard/file_property/size_classification	filesystem	standard	yes	test folders (download)
+filesystem/standard/file_property/time_classification	filesystem	standard	yes	test folders (download)
+filesystem/standard/folder_structure/structure_analysis	filesystem	standard	yes	test folders (download)
+filesystem/standard/folder_structure/structure_mirror	filesystem	standard	yes	test folders (download)
+filesystem/standard/legal_document/dispute_review	filesystem	standard	yes	test folders (download)
+filesystem/standard/legal_document/individual_comments	filesystem	standard	yes	test folders (download)
+filesystem/standard/legal_document/solution_tracing	filesystem	standard	yes	test folders (download)
+filesystem/standard/papers/author_folders	filesystem	standard	yes	test folders (download)
+filesystem/standard/papers/find_math_paper	filesystem	standard	yes	test folders (download)
+filesystem/standard/papers/organize_legacy_papers	filesystem	standard	yes	test folders (download)
+filesystem/standard/student_database/duplicate_name	filesystem	standard	yes	test folders (download)
+filesystem/standard/student_database/english_talent	filesystem	standard	yes	test folders (download)
+filesystem/standard/student_database/gradebased_score	filesystem	standard	yes	test folders (download)
+filesystem/standard/threestudio/code_locating	filesystem	standard	yes	test folders (download)
+filesystem/standard/threestudio/output_analysis	filesystem	standard	yes	test folders (download)
+filesystem/standard/threestudio/requirements_completion	filesystem	standard	yes	test folders (download)
+filesystem/standard/votenet/dataset_comparison	filesystem	standard	yes	test folders (download)
+filesystem/standard/votenet/debugging	filesystem	standard	yes	test folders (download)
+filesystem/standard/votenet/requirements_writing	filesystem	standard	yes	test folders (download)
+postgres/easy/chinook/customer_data_migration_basic	postgres	easy	yes	local PostgreSQL + 5 sample DBs (download)
+postgres/easy/chinook/update_employee_info	postgres	easy	yes	local PostgreSQL + 5 sample DBs (download)
+postgres/easy/dvdrental/create_payment_index	postgres	easy	yes	local PostgreSQL + 5 sample DBs (download)
+postgres/easy/employees/department_summary_view	postgres	easy	yes	local PostgreSQL + 5 sample DBs (download)
+postgres/easy/employees/employee_gender_statistics	postgres	easy	yes	local PostgreSQL + 5 sample DBs (download)
+postgres/easy/employees/employee_projects_basic	postgres	easy	yes	local PostgreSQL + 5 sample DBs (download)
+postgres/easy/employees/hiring_year_summary	postgres	easy	yes	local PostgreSQL + 5 sample DBs (download)
+postgres/easy/lego/basic_security_setup	postgres	easy	yes	local PostgreSQL + 5 sample DBs (download)
+postgres/easy/lego/fix_data_inconsistencies	postgres	easy	yes	local PostgreSQL + 5 sample DBs (download)
+postgres/easy/sports/create_performance_indexes	postgres	easy	yes	local PostgreSQL + 5 sample DBs (download)
+postgres/standard/chinook/customer_data_migration	postgres	standard	yes	local PostgreSQL + 5 sample DBs (download)
+postgres/standard/chinook/employee_hierarchy_management	postgres	standard	yes	local PostgreSQL + 5 sample DBs (download)
+postgres/standard/chinook/sales_and_music_charts	postgres	standard	yes	local PostgreSQL + 5 sample DBs (download)
+postgres/standard/dvdrental/customer_analysis_fix	postgres	standard	yes	local PostgreSQL + 5 sample DBs (download)
+postgres/standard/dvdrental/customer_analytics_optimization	postgres	standard	yes	local PostgreSQL + 5 sample DBs (download)
+postgres/standard/dvdrental/film_inventory_management	postgres	standard	yes	local PostgreSQL + 5 sample DBs (download)
+postgres/standard/employees/employee_demographics_report	postgres	standard	yes	local PostgreSQL + 5 sample DBs (download)
+postgres/standard/employees/employee_performance_analysis	postgres	standard	yes	local PostgreSQL + 5 sample DBs (download)
+postgres/standard/employees/employee_project_tracking	postgres	standard	yes	local PostgreSQL + 5 sample DBs (download)
+postgres/standard/employees/employee_retention_analysis	postgres	standard	yes	local PostgreSQL + 5 sample DBs (download)
+postgres/standard/employees/executive_dashboard_automation	postgres	standard	yes	local PostgreSQL + 5 sample DBs (download)
+postgres/standard/employees/management_structure_analysis	postgres	standard	yes	local PostgreSQL + 5 sample DBs (download)
+postgres/standard/lego/consistency_enforcement	postgres	standard	yes	local PostgreSQL + 5 sample DBs (download)
+postgres/standard/lego/database_security_policies	postgres	standard	yes	local PostgreSQL + 5 sample DBs (download)
+postgres/standard/lego/transactional_inventory_transfer	postgres	standard	yes	local PostgreSQL + 5 sample DBs (download)
+postgres/standard/security/rls_business_access	postgres	standard	yes	local PostgreSQL + 5 sample DBs (download)
+postgres/standard/security/user_permission_audit	postgres	standard	yes	local PostgreSQL + 5 sample DBs (download)
+postgres/standard/sports/baseball_player_analysis	postgres	standard	yes	local PostgreSQL + 5 sample DBs (download)
+postgres/standard/sports/participant_report_optimization	postgres	standard	yes	local PostgreSQL + 5 sample DBs (download)
+postgres/standard/sports/team_roster_management	postgres	standard	yes	local PostgreSQL + 5 sample DBs (download)
+postgres/standard/vectors/dba_vector_analysis	postgres	standard	yes	local PostgreSQL + 5 sample DBs (download)
+github/easy/build-your-own-x/close_commented_issues	github	easy	no	GitHub account + token
+github/easy/build-your-own-x/record_recent_commits	github	easy	no	GitHub account + token
+github/easy/claude-code/add_terminal_shortcuts_doc	github	easy	no	GitHub account + token
+github/easy/claude-code/thank_docker_pr_author	github	easy	no	GitHub account + token
+github/easy/claude-code/triage_missing_tool_result_issue	github	easy	no	GitHub account + token
+github/easy/mcpmark-cicd/basic_ci_checks	github	easy	no	GitHub account + token
+github/easy/mcpmark-cicd/issue_lint_guard	github	easy	no	GitHub account + token
+github/easy/mcpmark-cicd/nightly_health_check	github	easy	no	GitHub account + token
+github/easy/missing-semester/count_translations	github	easy	no	GitHub account + token
+github/easy/missing-semester/find_ga_tracking_id	github	easy	no	GitHub account + token
+github/standard/build_your_own_x/find_commit_date	github	standard	no	GitHub account + token
+github/standard/build_your_own_x/find_rag_commit	github	standard	no	GitHub account + token
+github/standard/claude-code/automated_changelog_generation	github	standard	no	GitHub account + token
+github/standard/claude-code/claude_collaboration_analysis	github	standard	no	GitHub account + token
+github/standard/claude-code/critical_issue_hotfix_workflow	github	standard	no	GitHub account + token
+github/standard/claude-code/feature_commit_tracking	github	standard	no	GitHub account + token
+github/standard/claude-code/label_color_standardization	github	standard	no	GitHub account + token
+github/standard/easyr1/advanced_branch_strategy	github	standard	no	GitHub account + token
+github/standard/easyr1/config_parameter_audit	github	standard	no	GitHub account + token
+github/standard/easyr1/performance_regression_investigation	github	standard	no	GitHub account + token
+github/standard/easyr1/qwen3_issue_management	github	standard	no	GitHub account + token
+github/standard/harmony/fix_conflict	github	standard	no	GitHub account + token
+github/standard/harmony/issue_pr_commit_workflow	github	standard	no	GitHub account + token
+github/standard/harmony/issue_tagging_pr_closure	github	standard	no	GitHub account + token
+github/standard/harmony/multi_branch_commit_aggregation	github	standard	no	GitHub account + token
+github/standard/harmony/release_management_workflow	github	standard	no	GitHub account + token
+github/standard/mcpmark-cicd/deployment_status_workflow	github	standard	no	GitHub account + token
+github/standard/mcpmark-cicd/issue_management_workflow	github	standard	no	GitHub account + token
+github/standard/mcpmark-cicd/linting_ci_workflow	github	standard	no	GitHub account + token
+github/standard/mcpmark-cicd/pr_automation_workflow	github	standard	no	GitHub account + token
+github/standard/missing-semester/assign_contributor_labels	github	standard	no	GitHub account + token
+github/standard/missing-semester/find_legacy_name	github	standard	no	GitHub account + token
+github/standard/missing-semester/find_salient_file	github	standard	no	GitHub account + token
+notion/easy/computer_science_student_dashboard/simple__code_snippets_go	notion	easy	no	Notion account + token
+notion/easy/computer_science_student_dashboard/simple__study_session_tracker	notion	easy	no	Notion account + token
+notion/easy/it_trouble_shooting_hub/simple__asset_retirement_migration	notion	easy	no	Notion account + token
+notion/easy/japan_travel_planner/simple__remove_osaka_itinerary	notion	easy	no	Notion account + token
+notion/easy/online_resume/simple__skills_development_tracker	notion	easy	no	Notion account + token
+notion/easy/python_roadmap/simple__expert_level_lessons	notion	easy	no	Notion account + token
+notion/easy/self_assessment/simple__faq_column_layout	notion	easy	no	Notion account + token
+notion/easy/standard_operating_procedure/simple__section_organization	notion	easy	no	Notion account + token
+notion/easy/team_projects/simple__swap_tasks	notion	easy	no	Notion account + token
+notion/easy/toronto_guide/simple__change_color	notion	easy	no	Notion account + token
+notion/standard/company_in_a_box/employee_onboarding	notion	standard	no	Notion account + token
+notion/standard/company_in_a_box/goals_restructure	notion	standard	no	Notion account + token
+notion/standard/company_in_a_box/quarterly_review_dashboard	notion	standard	no	Notion account + token
+notion/standard/computer_science_student_dashboard/code_snippets_go	notion	standard	no	Notion account + token
+notion/standard/computer_science_student_dashboard/courses_internships_relation	notion	standard	no	Notion account + token
+notion/standard/computer_science_student_dashboard/study_session_tracker	notion	standard	no	Notion account + token
+notion/standard/it_trouble_shooting_hub/asset_retirement_migration	notion	standard	no	Notion account + token
+notion/standard/it_trouble_shooting_hub/security_audit_ticket	notion	standard	no	Notion account + token
+notion/standard/it_trouble_shooting_hub/verification_expired_update	notion	standard	no	Notion account + token
+notion/standard/japan_travel_planner/daily_itinerary_overview	notion	standard	no	Notion account + token
+notion/standard/japan_travel_planner/packing_progress_summary	notion	standard	no	Notion account + token
+notion/standard/japan_travel_planner/remove_osaka_itinerary	notion	standard	no	Notion account + token
+notion/standard/japan_travel_planner/restaurant_expenses_sync	notion	standard	no	Notion account + token
+notion/standard/online_resume/layout_adjustment	notion	standard	no	Notion account + token
+notion/standard/online_resume/projects_section_update	notion	standard	no	Notion account + token
+notion/standard/online_resume/skills_development_tracker	notion	standard	no	Notion account + token
+notion/standard/online_resume/work_history_addition	notion	standard	no	Notion account + token
+notion/standard/python_roadmap/expert_level_lessons	notion	standard	no	Notion account + token
+notion/standard/python_roadmap/learning_metrics_dashboard	notion	standard	no	Notion account + token
+notion/standard/self_assessment/faq_column_layout	notion	standard	no	Notion account + token
+notion/standard/self_assessment/hyperfocus_analysis_report	notion	standard	no	Notion account + token
+notion/standard/self_assessment/numbered_list_emojis	notion	standard	no	Notion account + token
+notion/standard/standard_operating_procedure/deployment_process_sop	notion	standard	no	Notion account + token
+notion/standard/standard_operating_procedure/section_organization	notion	standard	no	Notion account + token
+notion/standard/team_projects/priority_tasks_table	notion	standard	no	Notion account + token
+notion/standard/team_projects/swap_tasks	notion	standard	no	Notion account + token
+notion/standard/toronto_guide/change_color	notion	standard	no	Notion account + token
+notion/standard/toronto_guide/weekend_adventure_planner	notion	standard	no	Notion account + token
+playwright/standard/eval_web/cloudflare_turnstile_challenge	playwright	standard	no	live web
+playwright/standard/eval_web/extraction_table	playwright	standard	no	live web
+playwright/standard/web_search/birth_of_arvinxu	playwright	standard	no	live web
+playwright/standard/web_search/r1_arxiv	playwright	standard	no	live web
+playwright_webarena/easy/reddit/ai_data_analyst	playwright_webarena	easy	no	WebArena Docker images
+playwright_webarena/easy/reddit/llm_research_summary	playwright_webarena	easy	no	WebArena Docker images
+playwright_webarena/easy/reddit/movie_reviewer_analysis	playwright_webarena	easy	no	WebArena Docker images
+playwright_webarena/easy/reddit/nba_statistics_analysis	playwright_webarena	easy	no	WebArena Docker images
+playwright_webarena/easy/reddit/routine_tracker_forum	playwright_webarena	easy	no	WebArena Docker images
+playwright_webarena/easy/shopping_admin/fitness_promotion_strategy	playwright_webarena	easy	no	WebArena Docker images
+playwright_webarena/easy/shopping_admin/ny_expansion_analysis	playwright_webarena	easy	no	WebArena Docker images
+playwright_webarena/easy/shopping_admin/products_sales_analysis	playwright_webarena	easy	no	WebArena Docker images
+playwright_webarena/easy/shopping_admin/sales_inventory_analysis	playwright_webarena	easy	no	WebArena Docker images
+playwright_webarena/easy/shopping_admin/search_filtering_operations	playwright_webarena	easy	no	WebArena Docker images
+playwright_webarena/standard/reddit/ai_data_analyst	playwright_webarena	standard	no	WebArena Docker images
+playwright_webarena/standard/reddit/budget_europe_travel	playwright_webarena	standard	no	WebArena Docker images
+playwright_webarena/standard/reddit/buyitforlife_research	playwright_webarena	standard	no	WebArena Docker images
+playwright_webarena/standard/reddit/llm_research_summary	playwright_webarena	standard	no	WebArena Docker images
+playwright_webarena/standard/reddit/movie_reviewer_analysis	playwright_webarena	standard	no	WebArena Docker images
+playwright_webarena/standard/reddit/nba_statistics_analysis	playwright_webarena	standard	no	WebArena Docker images
+playwright_webarena/standard/reddit/routine_tracker_forum	playwright_webarena	standard	no	WebArena Docker images
+playwright_webarena/standard/shopping/advanced_product_analysis	playwright_webarena	standard	no	WebArena Docker images
+playwright_webarena/standard/shopping/gaming_accessories_analysis	playwright_webarena	standard	no	WebArena Docker images
+playwright_webarena/standard/shopping/health_routine_optimization	playwright_webarena	standard	no	WebArena Docker images
+playwright_webarena/standard/shopping/holiday_baking_competition	playwright_webarena	standard	no	WebArena Docker images
+playwright_webarena/standard/shopping/multi_category_budget_analysis	playwright_webarena	standard	no	WebArena Docker images
+playwright_webarena/standard/shopping/printer_keyboard_search	playwright_webarena	standard	no	WebArena Docker images
+playwright_webarena/standard/shopping/running_shoes_purchase	playwright_webarena	standard	no	WebArena Docker images
+playwright_webarena/standard/shopping_admin/customer_segmentation_setup	playwright_webarena	standard	no	WebArena Docker images
+playwright_webarena/standard/shopping_admin/fitness_promotion_strategy	playwright_webarena	standard	no	WebArena Docker images
+playwright_webarena/standard/shopping_admin/marketing_customer_analysis	playwright_webarena	standard	no	WebArena Docker images
+playwright_webarena/standard/shopping_admin/ny_expansion_analysis	playwright_webarena	standard	no	WebArena Docker images
+playwright_webarena/standard/shopping_admin/products_sales_analysis	playwright_webarena	standard	no	WebArena Docker images
+playwright_webarena/standard/shopping_admin/sales_inventory_analysis	playwright_webarena	standard	no	WebArena Docker images
+playwright_webarena/standard/shopping_admin/search_filtering_operations	playwright_webarena	standard	no	WebArena Docker images
+supabase/easy/chinook/customer_data_migration_basic	supabase	easy	no	local Supabase (Docker); same tasks as postgres
+supabase/easy/chinook/update_employee_info	supabase	easy	no	local Supabase (Docker); same tasks as postgres
+supabase/easy/dvdrental/create_payment_index	supabase	easy	no	local Supabase (Docker); same tasks as postgres
+supabase/easy/employees/department_summary_view	supabase	easy	no	local Supabase (Docker); same tasks as postgres
+supabase/easy/employees/employee_gender_statistics	supabase	easy	no	local Supabase (Docker); same tasks as postgres
+supabase/easy/employees/employee_projects_basic	supabase	easy	no	local Supabase (Docker); same tasks as postgres
+supabase/easy/employees/hiring_year_summary	supabase	easy	no	local Supabase (Docker); same tasks as postgres
+supabase/easy/lego/basic_security_setup	supabase	easy	no	local Supabase (Docker); same tasks as postgres
+supabase/easy/lego/fix_data_inconsistencies	supabase	easy	no	local Supabase (Docker); same tasks as postgres
+supabase/easy/sports/create_performance_indexes	supabase	easy	no	local Supabase (Docker); same tasks as postgres
+supabase/standard/chinook/customer_data_migration	supabase	standard	no	local Supabase (Docker); same tasks as postgres
+supabase/standard/chinook/employee_hierarchy_management	supabase	standard	no	local Supabase (Docker); same tasks as postgres
+supabase/standard/chinook/sales_and_music_charts	supabase	standard	no	local Supabase (Docker); same tasks as postgres
+supabase/standard/dvdrental/customer_analysis_fix	supabase	standard	no	local Supabase (Docker); same tasks as postgres
+supabase/standard/dvdrental/customer_analytics_optimization	supabase	standard	no	local Supabase (Docker); same tasks as postgres
+supabase/standard/dvdrental/film_inventory_management	supabase	standard	no	local Supabase (Docker); same tasks as postgres
+supabase/standard/employees/employee_demographics_report	supabase	standard	no	local Supabase (Docker); same tasks as postgres
+supabase/standard/employees/employee_performance_analysis	supabase	standard	no	local Supabase (Docker); same tasks as postgres
+supabase/standard/employees/employee_project_tracking	supabase	standard	no	local Supabase (Docker); same tasks as postgres
+supabase/standard/employees/employee_retention_analysis	supabase	standard	no	local Supabase (Docker); same tasks as postgres
+supabase/standard/employees/executive_dashboard_automation	supabase	standard	no	local Supabase (Docker); same tasks as postgres
+supabase/standard/employees/management_structure_analysis	supabase	standard	no	local Supabase (Docker); same tasks as postgres
+supabase/standard/lego/consistency_enforcement	supabase	standard	no	local Supabase (Docker); same tasks as postgres
+supabase/standard/lego/database_security_policies	supabase	standard	no	local Supabase (Docker); same tasks as postgres
+supabase/standard/lego/transactional_inventory_transfer	supabase	standard	no	local Supabase (Docker); same tasks as postgres
+supabase/standard/security/rls_business_access	supabase	standard	no	local Supabase (Docker); same tasks as postgres
+supabase/standard/security/user_permission_audit	supabase	standard	no	local Supabase (Docker); same tasks as postgres
+supabase/standard/sports/baseball_player_analysis	supabase	standard	no	local Supabase (Docker); same tasks as postgres
+supabase/standard/sports/participant_report_optimization	supabase	standard	no	local Supabase (Docker); same tasks as postgres
+supabase/standard/sports/team_roster_management	supabase	standard	no	local Supabase (Docker); same tasks as postgres
+supabase/standard/vectors/dba_vector_analysis	supabase	standard	no	local Supabase (Docker); same tasks as postgres
+insforge/easy/chinook/customer_data_migration_basic	insforge	easy	no	InsForge backend; same tasks as postgres
+insforge/easy/chinook/update_employee_info	insforge	easy	no	InsForge backend; same tasks as postgres
+insforge/easy/dvdrental/create_payment_index	insforge	easy	no	InsForge backend; same tasks as postgres
+insforge/easy/employees/department_summary_view	insforge	easy	no	InsForge backend; same tasks as postgres
+insforge/easy/employees/employee_gender_statistics	insforge	easy	no	InsForge backend; same tasks as postgres
+insforge/easy/employees/employee_projects_basic	insforge	easy	no	InsForge backend; same tasks as postgres
+insforge/easy/employees/hiring_year_summary	insforge	easy	no	InsForge backend; same tasks as postgres
+insforge/easy/lego/basic_security_setup	insforge	easy	no	InsForge backend; same tasks as postgres
+insforge/easy/lego/fix_data_inconsistencies	insforge	easy	no	InsForge backend; same tasks as postgres
+insforge/easy/sports/create_performance_indexes	insforge	easy	no	InsForge backend; same tasks as postgres
+insforge/standard/chinook/customer_data_migration	insforge	standard	no	InsForge backend; same tasks as postgres
+insforge/standard/chinook/employee_hierarchy_management	insforge	standard	no	InsForge backend; same tasks as postgres
+insforge/standard/chinook/sales_and_music_charts	insforge	standard	no	InsForge backend; same tasks as postgres
+insforge/standard/dvdrental/customer_analysis_fix	insforge	standard	no	InsForge backend; same tasks as postgres
+insforge/standard/dvdrental/customer_analytics_optimization	insforge	standard	no	InsForge backend; same tasks as postgres
+insforge/standard/dvdrental/film_inventory_management	insforge	standard	no	InsForge backend; same tasks as postgres
+insforge/standard/employees/employee_demographics_report	insforge	standard	no	InsForge backend; same tasks as postgres
+insforge/standard/employees/employee_performance_analysis	insforge	standard	no	InsForge backend; same tasks as postgres
+insforge/standard/employees/employee_project_tracking	insforge	standard	no	InsForge backend; same tasks as postgres
+insforge/standard/employees/employee_retention_analysis	insforge	standard	no	InsForge backend; same tasks as postgres
+insforge/standard/employees/executive_dashboard_automation	insforge	standard	no	InsForge backend; same tasks as postgres
+insforge/standard/employees/management_structure_analysis	insforge	standard	no	InsForge backend; same tasks as postgres
+insforge/standard/lego/consistency_enforcement	insforge	standard	no	InsForge backend; same tasks as postgres
+insforge/standard/lego/database_security_policies	insforge	standard	no	InsForge backend; same tasks as postgres
+insforge/standard/lego/transactional_inventory_transfer	insforge	standard	no	InsForge backend; same tasks as postgres
+insforge/standard/security/rls_business_access	insforge	standard	no	InsForge backend; same tasks as postgres
+insforge/standard/security/user_permission_audit	insforge	standard	no	InsForge backend; same tasks as postgres
+insforge/standard/sports/baseball_player_analysis	insforge	standard	no	InsForge backend; same tasks as postgres
+insforge/standard/sports/participant_report_optimization	insforge	standard	no	InsForge backend; same tasks as postgres
+insforge/standard/sports/team_roster_management	insforge	standard	no	InsForge backend; same tasks as postgres
+insforge/standard/vectors/dba_vector_analysis	insforge	standard	no	InsForge backend; same tasks as postgres

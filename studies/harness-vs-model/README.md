@@ -18,6 +18,7 @@ Run with [ConnectOnion](https://github.com/openonion/connectonion) and scored on
 |---|---|---|
 | [`appworld/`](../../appworld/) | [AppWorld](https://github.com/StonyBrookNLP/appworld) — nine simulated everyday apps (Gmail, Venmo, Spotify, Todoist, files, …), 457 APIs, graded on the apps' database state | The agent loop, **and** how the tools reach the agent: MCP, a command line, or Python |
 | [`dabstep/`](../../dabstep/) | [DABStep](https://huggingface.co/datasets/adyen/DABstep) — data-analysis questions over a payments dataset | The agent loop, with each harness's own tools or with one shared toolbox |
+| [`mcpmark/`](../../mcpmark/) | [MCPMark](https://github.com/eval-sys/mcpmark) — file and database tasks, checked by script | The real command line (shell, `psql`) against a published MCP server for the same service |
 
 Solutions are not in this repository. Each harness arm lives in its owner's repository and is
 submitted with `tp run`; the board links every row to the exact commit it ran.

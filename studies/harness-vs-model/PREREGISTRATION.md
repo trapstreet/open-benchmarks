@@ -24,12 +24,18 @@ these are claude-opus-5 and deepseek-flash, which already have rows).
 AppWorld tool surfaces: MCP, CLI and Python, crossed with the harnesses that can
 use each. **OPEN**: whether ConnectOnion adds a `co`-style CLI as a fourth surface.
 
+MCPMark tool surfaces (if included): the real CLI (shell, `psql`) or the published
+MCP server MCPMark uses for that service.
+
 ## Cases
 
 - dabstep: the 25 live cases, unchanged.
 - appworld: **OPEN** — a subset of `test_challenge`, drawn as whole scenarios
   with a fixed seed. Size is set by cost per cell × runs per cell. The `dev`
   split is used for building and probing only, never reported.
+- mcpmark: **OPEN** — whether to include it, and which ids from
+  [`mcpmark/tasks.tsv`](../../mcpmark/tasks.tsv). The 71 filesystem and postgres
+  tasks run locally without accounts.
 
 ## Runs
 

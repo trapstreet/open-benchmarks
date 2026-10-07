@@ -20,6 +20,7 @@ with `tp run`; the board links every row to the exact commit it ran.
 |---|---|---|
 | [`appworld/`](appworld/) | [AppWorld](https://github.com/StonyBrookNLP/appworld) — nine simulated everyday apps, 457 APIs | The apps' database state after the task |
 | [`dabstep/`](dabstep/) | [DABStep](https://huggingface.co/datasets/adyen/DABstep) — data-analysis questions over a payments dataset | The final answer (held privately) |
+| [`mcpmark/`](mcpmark/) | [MCPMark](https://github.com/eval-sys/mcpmark) — tasks against a filesystem, PostgreSQL, GitHub, Notion and a browser | The final state, by MCPMark's own scripts |
 
 ## Studies
 
@@ -31,4 +32,4 @@ with `tp run`; the board links every row to the exact commit it ran.
 
 A benchmark built on someone else's dataset follows that dataset's terms. AppWorld's
 data may only be redistributed encrypted, so `appworld/` carries task ids only and
-each user downloads the data from AppWorld.
+each user downloads the data from AppWorld. `mcpmark/` carries task ids only too.
