@@ -1,0 +1,14 @@
+# AppWorld's data may only be redistributed encrypted: never commit it.
+appworld-root/
+**/data/
+**/experiments/outputs/
+# Local environments and secrets
+.venv/
+.env
+.env.*
+.envrc
+# tp run workspaces and transcripts
+.trap/
+runs/
+__pycache__/
+.DS_Store
