@@ -34,12 +34,14 @@ MCP server MCPMark uses for that service.
   with a fixed seed. Size is set by cost per cell × runs per cell. The `dev`
   split is used for building and probing only, never reported.
 - mcpmark: **OPEN** — whether to include it, and which ids from
-  [`mcpmark/tasks.tsv`](../../mcpmark/tasks.tsv). The 71 filesystem and postgres
+  [`mcpmark/tasks.tsv`](mcpmark/tasks.tsv). The 71 filesystem and postgres
   tasks run locally without accounts.
 
 ## Runs
 
 - **OPEN**: runs per cell (proposal: 3).
+- Every arm calls the model through the endpoint `tp run` provides, so spend is
+  metered the same way and no arm routes through a hosted model of its own.
 - Same time limit, thinking setting and caching policy within a model across all
   harnesses. Vendor defaults otherwise, written down per arm.
 - Every agent runs jailed; transcripts are kept and audited for access outside
