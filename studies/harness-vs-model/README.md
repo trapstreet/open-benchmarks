@@ -4,9 +4,9 @@
 > ConnectOnion; nothing below is final until [PREREGISTRATION.md](PREREGISTRATION.md)
 > is frozen.
 
-**Bigger model or better harness?** This study answers that with one design: hold the model fixed and change only the
-harness, then compare that against holding the harness fixed and changing the
-model. Every cell runs the same cases, so the two effects are measured on the same
+**Bigger model or better harness?** This study answers that with one design: hold
+the model fixed and change only the harness, then compare that against holding the
+harness fixed and changing the model. Every cell runs the same cases, so the two effects are measured on the same
 ground and can be put side by side.
 
 Run with [ConnectOnion](https://github.com/openonion/connectonion) and scored on
@@ -22,6 +22,25 @@ Run with [ConnectOnion](https://github.com/openonion/connectonion) and scored on
 
 Solutions are not in this repository. Each harness arm lives in its owner's repository and is
 submitted with `tp run`; the board links every row to the exact commit it ran.
+
+## AppWorld and MCPMark: what each can show
+
+Both put the same agent on the same model behind a command line or behind MCP. They
+answer different versions of that question.
+
+| | AppWorld | MCPMark (filesystem + postgres) |
+|---|---|---|
+| Work | Everyday errands across nine apps: mail, payments, music, notes, to-dos | File and database operations |
+| Tools in front of the agent | 469 over MCP (about 256K characters of tool definitions) | A short list per server: file operations, or SQL and schema inspection |
+| The two surfaces | Generated from AppWorld's API documentation, so they carry the same names, descriptions and errors and differ only in how they reach the agent | The tools people already use (the shell, `psql`) against the published MCP server for the same service; nothing written for this study |
+| So a difference means | The way tools reach the agent matters, including what a large tool list costs in context | The real CLI beats or trails the real MCP server, tool quality included |
+| Cases | 417 in `test_challenge` | 71 that run without accounts |
+| Task text | Distributed encrypted | Public on GitHub, with the verification scripts |
+| Graded on | The apps' database state, including changes nobody asked for | The final files or tables, by MCPMark's scripts |
+
+AppWorld is the closer match to an agent working across someone's accounts and
+apps. MCPMark is the more direct test of "use the CLI that already exists".
+Which of them the study runs is decided in [PREREGISTRATION.md](PREREGISTRATION.md).
 
 ## The grid
 
@@ -62,3 +81,5 @@ the evaluation tests come from there, never from here. See
 AppWorld: Trivedi et al., *AppWorld: A Controllable World of Apps and People for
 Benchmarking Interactive Coding Agents*, ACL 2024. DABStep: Egg et al.,
 *DABstep: Data Agent Benchmark for Multi-step Reasoning*, arXiv:2506.23719.
+MCPMark: *MCPMark: A Benchmark for Stress-Testing Realistic and Comprehensive MCP
+Use*, arXiv:2509.24002.
