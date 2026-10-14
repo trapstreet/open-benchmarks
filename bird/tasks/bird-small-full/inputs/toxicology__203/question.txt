@@ -1,0 +1,7 @@
+What is the average number of connections per non-bromine atom across molecules that have bonds or multiple atoms, and how many of these non-bromine atoms have more than 2 connections?
+
+Hint: Non-bromine atoms refers to element != 'br'; connections refer to bonds connected to an atom
+
+The database is the SQLite file `toxicology.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

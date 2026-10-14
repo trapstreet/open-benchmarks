@@ -1,0 +1,7 @@
+For the transaction of 840 on October 14, 1998, provide detailed information about the account including when it was opened, how long it had been open, the account owner's gender and age at the time, the total number of transactions up to that date, how many cards were issued, and whether the account had a loan before this transaction.
+
+Hint: Transaction date is 1998-10-14 and transaction amount is 840. Account owner refers to disposition type = 'OWNER'.
+
+The database is the SQLite file `financial.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

@@ -1,0 +1,7 @@
+What is the average math score of the school with the lowest average score for all subjects, and in which county is it located?
+
+Hint: Average score for all subjects can be computed by (AvgScrMath + AvgScrRead + AvgScrWrite) / 3
+
+The database is the SQLite file `california_schools.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

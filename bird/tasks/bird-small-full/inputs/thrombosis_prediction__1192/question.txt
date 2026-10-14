@@ -1,0 +1,7 @@
+List all patients who were followed up at the outpatient clinic who underwent a laboratory test in October 1991 and had a total blood bilirubin level within the normal range.
+
+Hint: followed up at the outpatient clinic refers to Admission = '-'; blood bilirubin level within the normal range refers to T-BIL < 2.0;
+
+The database is the SQLite file `thrombosis_prediction.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

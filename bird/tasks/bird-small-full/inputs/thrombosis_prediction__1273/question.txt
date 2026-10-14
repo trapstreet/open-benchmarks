@@ -1,0 +1,7 @@
+How many patients have a normal anti-SSB and are diagnosed with SLE in the examination?
+
+Hint: normal anti-SSB refers to SSB IN('-', '+-'); '-' is expressed as 'negative' and '+-' is expressed as '0' in the database ; diagnosed with SLE refers to Diagnosis = 'SLE'; Should compute the number of distinct ones
+
+The database is the SQLite file `thrombosis_prediction.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

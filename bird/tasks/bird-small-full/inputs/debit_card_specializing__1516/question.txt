@@ -1,0 +1,7 @@
+How many transactions were paid in CZK in the morning of 2012/8/26?
+
+Hint: '2012/8/26' can be represented by '2012-08-26'; The morning refers to the time before '13:00:00'
+
+The database is the SQLite file `debit_card_specializing.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

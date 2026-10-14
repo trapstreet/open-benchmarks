@@ -1,0 +1,7 @@
+Which top 20 driver created the shortest lap time ever record in a Formula_1 race? Please give them full names.
+
+Hint: shortest lap time refers to MIN(time); the time format for the shortest lap time is 'MM:SS.mmm' or 'M:SS.mmm'; full name of the driver refers to forename, surname
+
+The database is the SQLite file `formula_1.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

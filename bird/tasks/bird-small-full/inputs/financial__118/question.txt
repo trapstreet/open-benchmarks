@@ -1,0 +1,7 @@
+For loans under $100,000, what is the percentage of loans running with no issues in each region and loan size category, and how does each region's performance compare to the overall average?
+
+Hint: Status = 'C' means running contract with no issues; Small loans are under $50,000, Medium loans are $50,000-$99,999; Percentage is calculated by dividing loans with status 'C' by total loans and multiplying by 100
+
+The database is the SQLite file `financial.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

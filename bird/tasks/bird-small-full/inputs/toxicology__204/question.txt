@@ -1,0 +1,7 @@
+What are the average structural characteristics of carcinogenic molecules among the first 100 molecules, including the number of atoms, carbon atoms, bonds, double bonds, connected atoms, and the ratio of carbon-to-carbon connections?
+
+Hint: first 100 molecules refers to molecule_id between 'TR000' and 'TR099'; carcinogenic molecules refers to label = '+'; only molecules containing carbon or hydrogen are considered
+
+The database is the SQLite file `toxicology.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

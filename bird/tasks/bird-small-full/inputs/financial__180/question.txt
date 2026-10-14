@@ -1,0 +1,5 @@
+Please provide a list of clients who were born between 1983 and 1987 and whose account branch is in East Bohemia, along with their account IDs.
+
+The database is the SQLite file `financial.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

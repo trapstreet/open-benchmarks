@@ -1,0 +1,7 @@
+For the customer who paid 124.05 in 2012/8/24, how much did he/she spend during the January of 2012? And what is the date and expenses exactly?
+
+Hint: expense and consumption have similar meanings
+
+The database is the SQLite file `debit_card_specializing.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

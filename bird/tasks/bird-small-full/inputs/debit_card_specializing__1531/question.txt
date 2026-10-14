@@ -1,0 +1,7 @@
+Who is the top spending customer and how much is the average price per single item purchased by this customer? What currency was being used?
+
+Hint: average price per single item = Total(price) / Total(amount)
+
+The database is the SQLite file `debit_card_specializing.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

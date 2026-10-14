@@ -1,0 +1,7 @@
+What are the comprehensive statistics for clients born in 1920 who live in east Bohemia, including their account activity, loan information, transaction patterns, gender distribution, and most common district?
+
+Hint: East Bohemia refers to region A3 = 'east Bohemia'. PRIJEM transactions represent income while VYDAJ transactions represent expenses.
+
+The database is the SQLite file `financial.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

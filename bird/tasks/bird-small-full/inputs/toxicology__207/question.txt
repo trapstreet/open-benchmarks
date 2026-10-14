@@ -1,0 +1,7 @@
+For each element that participates in double bonds, what is the count of atoms, the number of molecules containing them, their percentage of all atoms in the database, and examples of up to 3 molecules (with labels) where they appear in double bonds?
+
+Hint: Double bonds refer to bond_type = '='. Only consider molecules that contain at least one double bond.
+
+The database is the SQLite file `toxicology.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

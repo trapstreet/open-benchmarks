@@ -1,0 +1,7 @@
+The oldest SJS patient's latest medical laboratory work was completed on what date, and what age was the patient when they initially arrived at the hospital?
+
+Hint: The larger the birthday value, the younger the person is, and vice versa; 'SJS' refers to diagnosis; (SUBTRACT(year(`First Date`)), year(Birthday)); age of the patients when they initially arrived at the hospital refers to year(Birthday)
+
+The database is the SQLite file `thrombosis_prediction.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

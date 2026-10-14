@@ -1,0 +1,7 @@
+What is the constructor reference name of the champion in the 2009 Singapore Grand Prix? Please give its website.
+
+Hint: the time of the champion shows in the format of "minutes: seconds.millionsecond" in which Max(time); constructor reference name refers to constructorRef; website refers to url
+
+The database is the SQLite file `formula_1.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

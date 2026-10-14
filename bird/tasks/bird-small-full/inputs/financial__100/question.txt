@@ -1,0 +1,7 @@
+What is the average age at account opening, total number with loans, number with successfully completed loans, and number currently in debt for female clients born before 1950 from Sokolov who own accounts? Also, what are the earliest and latest years these accounts were opened?
+
+Hint: Female refers to gender = 'F'; Sokolov is a district name in column A2; loan status 'A' means contract finished with no problems, 'D' means running contract with client in debt; only account owners are considered
+
+The database is the SQLite file `financial.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

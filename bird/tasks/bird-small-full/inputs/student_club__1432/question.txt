@@ -1,0 +1,7 @@
+Among the members with t-shirt size of medium, what is the percentage of the amount 50 received by the Student_Club?
+
+Hint: t_shirt_size = 'Medium' where position = 'Member'; percentage = DIVIDE(COUNT(amount = 50), COUNT(member_id)) * 100
+
+The database is the SQLite file `student_club.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

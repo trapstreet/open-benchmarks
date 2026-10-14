@@ -1,0 +1,7 @@
+How many male customers who are living in North Bohemia have average salary greater than 8000?
+
+Hint: Male means that gender = 'M'; A3 refers to region; A11 pertains to average salary.
+
+The database is the SQLite file `financial.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

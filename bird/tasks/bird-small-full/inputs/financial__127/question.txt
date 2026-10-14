@@ -1,0 +1,7 @@
+For accounts with monthly statement issuance, provide a comprehensive financial profile including client demographics, transaction activity, loan details, and rankings by transaction volume and cash flow performance.
+
+Hint: Monthly statement issuance refers to frequency = 'POPLATEK MESICNE'. Net cash flow is calculated as total income minus total expense. Active loans have status 'A' and completed loans have status 'B'.
+
+The database is the SQLite file `financial.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

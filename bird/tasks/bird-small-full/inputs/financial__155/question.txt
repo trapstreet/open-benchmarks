@@ -1,0 +1,7 @@
+What percentage of gold credit cards were issued before 1998, both overall and broken down by region?
+
+Hint: Percentage of gold cards issued before 1998 = count(gold cards issued before 1998) / count(all gold cards) * 100. Region refers to A3 in district table.
+
+The database is the SQLite file `financial.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

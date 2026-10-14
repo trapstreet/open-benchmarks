@@ -1,0 +1,7 @@
+For accounts opened in Prachatice district, provide a comprehensive financial profile including account details, owner demographics, transaction statistics, loan information, customer categorization, and rank them by net balance from highest to lowest.
+
+Hint: A2 refers to district names. PRIJEM refers to incoming transactions (credits), VYDAJ refers to outgoing transactions (debits). Net balance is calculated as total income minus total expense. Customer category is determined by loan count and transaction activity: High Activity (has loans and >10 transactions), Loan Customer (has loans), Active Customer (>10 transactions), or Regular Customer (others).
+
+The database is the SQLite file `financial.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

@@ -1,0 +1,7 @@
+For accounts with owner disposition that request statements after each transaction, what are the regional and district-level statistics including the number of accounts, average district salary, loan adoption rate, average loan amount, transaction activity, and account balances?
+
+Hint: Statements after transaction refers to frequency = 'POPLATEK PO OBRATU'; owner disposition refers to type = 'OWNER' in disp table
+
+The database is the SQLite file `financial.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

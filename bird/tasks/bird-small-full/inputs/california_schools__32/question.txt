@@ -1,0 +1,7 @@
+For the top 5 schools with the highest number of students eligible for free or reduced price meals in grades K-12 among schools with ownership code 66, what are their eligibility rates, SAT performance metrics, and how do they compare in terms of SAT participation and high scorer rates?
+
+Hint: Eligible free or reduced price meal rate for K-12 = FRPM Count (K-12) / Enrollment (K-12); ownership code 66 refers to SOC = '66'; high scorer rate refers to students scoring 1500 or above on SAT
+
+The database is the SQLite file `california_schools.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

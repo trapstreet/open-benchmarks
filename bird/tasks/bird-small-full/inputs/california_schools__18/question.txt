@@ -1,0 +1,7 @@
+What are the average SAT statistics and school characteristics for directly funded charter schools in Fresno County that have 250 or fewer test takers, including the breakdown by testing volume categories?
+
+Hint: Directly funded refers to Charter Funding Type = 'Directly funded'. Testing volume categories are: under 50 testers, 50-100 testers, and 100-250 testers.
+
+The database is the SQLite file `california_schools.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

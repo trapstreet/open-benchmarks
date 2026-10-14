@@ -1,0 +1,7 @@
+How many patients have a normal anti-DNA level, yet their data are not recorded.
+
+Hint: normal anti-DNA level refers to DNA < 8; data are not recorded refers to Description IS NULL; Should compute the number of unique ones
+
+The database is the SQLite file `thrombosis_prediction.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

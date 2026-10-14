@@ -1,0 +1,7 @@
+How much of the hydrogen in molecule TR206 is accounted for? Please provide your answer as a percentage with four decimal places.
+
+Hint: hydrogen refers to element = 'h'; TR206 is the molecule id; percentage = DIVIDE(SUM(element = 'h'), COUNT(atom_id)) as percent where molecule_id = 'TR206'
+
+The database is the SQLite file `toxicology.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

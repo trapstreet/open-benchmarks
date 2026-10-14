@@ -1,0 +1,7 @@
+Was the patient with the number 57266's uric acid within a normal range?
+
+Hint: uric acid within a normal range refers to UA > 8.0 and SEX = 'M' OR UA > 6.5 and SEX = 'F'
+
+The database is the SQLite file `thrombosis_prediction.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

@@ -1,0 +1,7 @@
+What is the complete customer profile for client 13539, including their demographics, credit card details, district information with salary ranking, transaction activity, customer segment classification, and loan count?
+
+Hint: Customer segment is classified as 'Premium' for gold card holders, 'Long-term Classic' for classic card holders with cards older than 5 years, and 'Standard' for all others. PRIJEM refers to income transactions and VYDAJ refers to expense transactions.
+
+The database is the SQLite file `financial.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

@@ -1,0 +1,7 @@
+List all patients with their sex and date of birthday, whose AST glutamic oxaloacetic transaminase (GOT) index is within normal range for laboratory examination in 1994.
+
+Hint: AST glutamic oxaloacetic transaminase (GOT) index within normal range refers to values less than 60; examination in 1994 refers to laboratory tests conducted during the year 1994.
+
+The database is the SQLite file `thrombosis_prediction.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

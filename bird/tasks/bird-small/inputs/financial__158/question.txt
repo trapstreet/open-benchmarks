@@ -1,0 +1,7 @@
+For the account that placed order 33333, provide a comprehensive profile including the district's economic ranking by salary, account transaction history, ownership details, loan status, and order information.
+
+Hint: PRIJEM refers to incoming transactions (credits), VYDAJ refers to outgoing transactions (debits). Loan status A, B, or C indicates active loans.
+
+The database is the SQLite file `financial.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

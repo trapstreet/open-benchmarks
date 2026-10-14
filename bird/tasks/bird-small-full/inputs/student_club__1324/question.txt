@@ -1,0 +1,7 @@
+What is the average attendance of meetings in 2020?
+
+Hint: meetings in 2020 refers to type = 'Meeting' where YEAR(event_date) = 2020; average = DIVIDE(COUNT(event_id), COUNT(DISTINCT event_name))
+
+The database is the SQLite file `student_club.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

@@ -1,0 +1,7 @@
+Tally the toxicology element of the 4th atom of each molecule that was carcinogenic.
+
+Hint: label = '+' means molecules are carcinogenic; 4th atom of each molecule refers to substr(atom_id, 7, 1) = '4';
+
+The database is the SQLite file `toxicology.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

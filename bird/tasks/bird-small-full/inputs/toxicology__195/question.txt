@@ -1,0 +1,7 @@
+For the most common bond type in the database, provide comprehensive statistics including its total occurrences, how many molecules contain it, the average number of such bonds per molecule, the number of unique element pairs it connects, and which molecule labels (carcinogenic or non-carcinogenic) contain this bond type.
+
+Hint: most common bond type refers to the bond_type with MAX(COUNT(bond_id)); molecule label refers to '+' for carcinogenic and '-' for non-carcinogenic
+
+The database is the SQLite file `toxicology.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

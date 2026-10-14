@@ -1,0 +1,7 @@
+What was the difference in the number of crimes committed in East and North Bohemia in 1996?
+
+Hint: Difference in no. of committed crimes between 2 regions = Total no. of committed crimes in 1996 in north Bohemia - Total no. of committed crimes in 1996 in e ast Bohemia. A3 refers to region. Data about no. of committed crimes 1996 appears in A16
+
+The database is the SQLite file `financial.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

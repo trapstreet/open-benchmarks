@@ -1,0 +1,7 @@
+For all disponent clients with accounts that have post-transaction issuance statements, provide a comprehensive profile including their loan statistics, transaction activity, credit card information, and categorize them based on their service usage, ranked by transaction volume.
+
+Hint: Post-transaction issuance refers to frequency = 'POPLATEK PO OBRATU'. Disponent refers to disposition type = 'DISPONENT'. Status 'A' indicates active loans while 'B' indicates completed loans.
+
+The database is the SQLite file `financial.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

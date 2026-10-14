@@ -1,0 +1,7 @@
+For patient born between 1936-1956, how many male patients have creatinine phosphokinase beyond the normal range?
+
+Hint: born between 1936-1956 refers to year(Birthday) BETWEEN '1936' AND '1956'; male patients refers to sex = 'M'; creatinine phosphokinase beyond the normal range refers to CPK > = 250; Should consider DISTINCT in the final result;
+
+The database is the SQLite file `thrombosis_prediction.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

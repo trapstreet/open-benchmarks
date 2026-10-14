@@ -1,0 +1,7 @@
+List the reference name of the drivers who passed the second qualifying lap during race no. 23. Indicate their nationality and birthday.
+
+Hint: birthday refers to dob; reference name of drivers refers to driverRef; race no. refers to raceId; passed the second qualifying lap means the driver completed q2
+
+The database is the SQLite file `formula_1.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

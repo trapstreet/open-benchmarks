@@ -1,0 +1,7 @@
+How many male patients have a normal level of both albumin and total protein?
+
+Hint: male refers to Sex = 'M'; normal level of both albumin and total protein refers to ALB > 3.5 and ALB < 5.5 AND TP between 6.0 and 8.5;
+
+The database is the SQLite file `thrombosis_prediction.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

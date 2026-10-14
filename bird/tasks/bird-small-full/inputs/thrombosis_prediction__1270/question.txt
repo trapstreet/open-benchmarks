@@ -1,0 +1,7 @@
+Among the patients who has a normal anti-scl70, how many of them are female and does not have any symptom?
+
+Hint: normal anti-scl70 refers to negative test results; female refers to female sex; patients without symptoms have no recorded symptoms; when counting patients across multiple test records, each patient should only be counted once
+
+The database is the SQLite file `thrombosis_prediction.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

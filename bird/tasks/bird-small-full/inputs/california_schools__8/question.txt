@@ -1,0 +1,7 @@
+For the top 10 schools with the highest number of students eligible for free or reduced price meals, provide detailed information including their location, type, FRPM statistics, and SAT performance metrics.
+
+Hint: FRPM refers to Free or Reduced Price Meal program. FRPM Count (K-12) represents the number of students eligible for the program.
+
+The database is the SQLite file `california_schools.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

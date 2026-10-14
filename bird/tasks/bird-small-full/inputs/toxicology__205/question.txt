@@ -1,0 +1,7 @@
+For all molecules containing carbon, provide comprehensive statistics including the number of atoms, bonds, carbon atoms, chlorine atoms, and double bonds. Rank these molecules by their carbon content (highest first), and for ties, rank by total atom count. Also include the total number of atomic connections in each molecule.
+
+Hint: carbon refers to element = 'c'; chlorine refers to element = 'cl'; double bonds refers to bond_type = '='
+
+The database is the SQLite file `toxicology.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

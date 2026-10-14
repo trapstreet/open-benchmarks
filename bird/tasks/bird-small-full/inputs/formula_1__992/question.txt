@@ -1,0 +1,7 @@
+Find the full name, Wiki Pedia page link, and date of birth of German drivers born between 1971 and 1985. List it in descending order of date of birth.
+
+Hint: Full name refers to forename and surname; between 1971 and 1985 is inclusive.
+
+The database is the SQLite file `formula_1.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

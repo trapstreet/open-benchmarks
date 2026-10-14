@@ -1,0 +1,7 @@
+In superheroes with height between 150 to 180, what is the percentage of heroes published by Marvel Comics?
+
+Hint: heroes published by Marvel Comics refers to publisher_name = 'Marvel Comics'; percentage is calculated as (Marvel Comics heroes / total heroes) * 100
+
+The database is the SQLite file `superhero.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

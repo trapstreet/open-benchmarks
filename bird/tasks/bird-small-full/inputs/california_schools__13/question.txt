@@ -1,0 +1,7 @@
+What are the top 3 schools ranked by SAT excellence rate, and for each school, provide their contact number, city, charter status, and poverty classification?
+
+Hint: SAT excellence rate = NumGE1500 / NumTstTakr. Poverty rate refers to Percent (%) Eligible FRPM (K-12). Schools are classified as High Poverty (>75%), Medium Poverty (>50%), Low Poverty (>25%), or Very Low Poverty (≤25%).
+
+The database is the SQLite file `california_schools.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

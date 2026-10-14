@@ -1,0 +1,7 @@
+For each district, how many classic credit card holders who are account owners are there, and what are their average loan amounts, account balances, loan performance, district salary, and unemployment rate?
+
+Hint: Account owners refer to disp.type = 'OWNER'. Good loans refer to status = 'A' and bad loans refer to status = 'B'. Account balance is calculated as total income minus total expense.
+
+The database is the SQLite file `financial.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

@@ -1,0 +1,7 @@
+What are the key statistics for high schools in Amador County, including total number of schools, average enrollment, charter vs non-charter breakdown, average poverty rate, number of districts, SAT performance metrics, the largest school by enrollment, and how many schools have high poverty levels?
+
+Hint: High schools refers to Low Grade = '9' AND High Grade = '12'; High poverty schools are those where Percent (%) Eligible FRPM (K-12) > 0.75; Charter schools refers to Charter School (Y/N) = 1
+
+The database is the SQLite file `california_schools.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

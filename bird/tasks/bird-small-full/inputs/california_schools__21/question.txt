@@ -1,0 +1,7 @@
+For Los Angeles schools with more than 500 free meals but less than 700 FRPM meals for K-12 students, what is the average percentage of students receiving free meals, how many are charter versus non-charter schools, what is their average SAT score, and how are they distributed across free meal categories?
+
+Hint: Free meal percentage = Free Meal Count (K-12) / Enrollment (K-12) * 100. Schools are categorized as 'Very High' if free meals > 600, 'High' if > 500, otherwise 'Moderate'. Charter schools have Charter = 1.
+
+The database is the SQLite file `california_schools.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

@@ -1,0 +1,7 @@
+What is the average number of bonds the atoms with the element iodine have?
+
+Hint: atoms with the element iodine refers to element = 'i'; average = DIVIDE(COUNT(bond_id), COUNT(atom_id)) where element = 'i'
+
+The database is the SQLite file `toxicology.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

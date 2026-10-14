@@ -1,0 +1,7 @@
+For the school with the highest average math SAT score among active schools with at least 10 test takers, provide its contact information, all SAT scores, charter status, enrollment, and percentage of students eligible for free or reduced price meals.
+
+Hint: Charter status refers to Charter School (Y/N) = 1 for charter schools. Free or reduced price meal eligibility refers to Percent (%) Eligible FRPM (K-12).
+
+The database is the SQLite file `california_schools.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

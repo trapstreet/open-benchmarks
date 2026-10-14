@@ -1,0 +1,7 @@
+What's Bruno Senna's Q1 result in the qualifying race No. 354?
+
+Hint: race number refers to raceId; Bruno Senna refers to the full name of the driver; Full name of the driver refers to drivers.forename and drivers.surname;
+
+The database is the SQLite file `formula_1.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

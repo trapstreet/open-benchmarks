@@ -1,0 +1,7 @@
+For all the club members from "Business" major, how many of them wear medium size t-shirt?
+
+Hint: 'Business' is a major name; wear medium size t-shirt refers to t_shirt_size = 'Medium'
+
+The database is the SQLite file `student_club.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

@@ -1,0 +1,7 @@
+In chartered schools with charter number 00D2, what are the names of all the administrators? Include the name of the school and the city to which it belongs
+
+Hint: Chartered schools refer to Charter = 1 in the table schools; Full name refers to first name, last name
+
+The database is the SQLite file `california_schools.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

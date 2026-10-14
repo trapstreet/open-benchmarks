@@ -1,0 +1,7 @@
+What is the financial profile and banking behavior of male clients in Prague district, broken down by age groups (Young, Middle-aged, and Senior)?
+
+Hint: Young clients are under 30 years old, Middle-aged clients are between 30 and 50 years old, and Senior clients are over 50 years old. Status 'A' indicates good loans and status 'B' indicates bad loans. PRIJEM represents income transactions and VYDAJ represents expense transactions.
+
+The database is the SQLite file `financial.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

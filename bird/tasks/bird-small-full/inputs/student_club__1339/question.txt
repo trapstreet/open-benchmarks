@@ -1,0 +1,7 @@
+Calculate the total average cost that Elijah Allen spent in the events on September and October.
+
+Hint: Elijah Allen is the full name; full name refers to first_name, last_name; The 5th and 6th string of the expense_date in the expense table can refer to month; events in September and October refers to month(expense_date) = 9 OR month(expense_date) = 10
+
+The database is the SQLite file `student_club.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

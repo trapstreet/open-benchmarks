@@ -1,0 +1,7 @@
+Who is the champion of the Canadian Grand Prix in 2008? Indicate his finish time.
+
+Hint: Only the time of the champion shows in the format of "hour: minutes: seconds.millionsecond";
+
+The database is the SQLite file `formula_1.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

@@ -1,0 +1,7 @@
+For loan ID 4990, provide a comprehensive profile including the borrower's demographics, loan details with status description, district economic indicators, and how this loan ranks among other loans in the same district.
+
+Hint: Status descriptions: A = Running - OK, B = Running - Issues, C = Finished - No Issues, D = Finished - Issues. Problematic loans are those with status B or D. District information includes A2 for district name, A3 for region, A11 for average salary, and A12 for unemployment rate in 1995.
+
+The database is the SQLite file `financial.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

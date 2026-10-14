@@ -1,0 +1,7 @@
+What is the percentage of double bonds in the molecule TR008? Please provide your answer as a percentage with five decimal places.
+
+Hint: double bond refers to bond_type = '='; TR008 is the molecule id; percentage = DIVIDE(SUM(bond_type = '='), COUNT(bond_id)) as percent where molecule_id = 'TR008'
+
+The database is the SQLite file `toxicology.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

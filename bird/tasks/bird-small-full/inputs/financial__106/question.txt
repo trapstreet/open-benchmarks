@@ -1,0 +1,7 @@
+For the client who received a credit card on October 21, 1996, what are the complete details of their largest transaction, including their personal information, district details, and any associated loans or orders?
+
+Hint: Card issued date refers to issued = '1996-10-21'; largest transaction refers to MAX(amount)
+
+The database is the SQLite file `financial.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

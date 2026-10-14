@@ -1,0 +1,7 @@
+Write the full names of students who received funds on the date of 9/9/2019 and include the amount received.
+
+Hint: full name refers to first_name, last_name, amount of funds received refers to amount, received funds on date refers to date_received
+
+The database is the SQLite file `student_club.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

@@ -1,0 +1,7 @@
+What is the city location of the high school level school with Lunch Provision 2 whose lowest grade is 9 and the highest grade is 12 in the county of Merced?
+
+Hint: High school can be represented as EILCode = 'HS'
+
+The database is the SQLite file `california_schools.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

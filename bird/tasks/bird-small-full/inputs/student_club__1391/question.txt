@@ -1,0 +1,8 @@
+What is the ratio of students majoring in finance to those majoring in physics?
+
+Hint: Students are members. They are represented by the member table. 
+Ratio = (Count of students (members) majoring in Finance) divided by (Count of students (members) majoring in Physics).
+
+The database is the SQLite file `student_club.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

@@ -1,0 +1,7 @@
+For accounts opened in 1993 with statements issued after transactions, provide a comprehensive analysis including district information, transaction activity, client demographics, loan details, and risk assessment.
+
+Hint: 'POPLATEK PO OBRATU' means statement issued after transaction. District names are in A2, regions in A3, and A10 represents the ratio of urban inhabitants. Transaction types: 'PRIJEM' = income, 'VYDAJ' = expense. Loan status: 'A' = running contract, 'B' = finished contract, 'C' = defaulted loan.
+
+The database is the SQLite file `financial.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

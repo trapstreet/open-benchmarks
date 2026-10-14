@@ -1,0 +1,7 @@
+For each region, what percentage of the total loan amount has been fully paid without issues, and what percentage of loans were successfully completed? Also include the average interest paid on successful loans compared to all loans.
+
+Hint: Loan paid with no issue refers to status = 'A'; Interest paid = (monthly payments * duration) - loan amount; Percentage = (amount with status 'A' / total amount) * 100%
+
+The database is the SQLite file `financial.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

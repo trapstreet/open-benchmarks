@@ -1,0 +1,7 @@
+For accounts with loans exceeding 24 months duration that were opened before 1997, provide comprehensive details about the account(s) with the smallest loan amount, including transaction history, card information, client demographics, and order activity.
+
+Hint: Before 1997 does not include year 1997. PRIJEM means income transactions and VYDAJ means expense transactions.
+
+The database is the SQLite file `financial.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

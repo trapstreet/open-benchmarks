@@ -1,0 +1,7 @@
+What is the district name, number of inhabitants, total number of clients, number of male clients, and percentage of male clients for the most populated district in the south Bohemia region?
+
+Hint: Percentage of male clients = (number of male clients / total number of clients) * 100. Male refers to gender = 'M'. A3 is the region name, A2 is the district name, and A4 contains the number of inhabitants.
+
+The database is the SQLite file `financial.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

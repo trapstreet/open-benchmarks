@@ -1,0 +1,7 @@
+Give the event ID, location, and status of events conducted from November 2019 to March 2020.
+
+Hint: event_date BETWEEN '2019-11-01' and '2020-03-31'
+
+The database is the SQLite file `student_club.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

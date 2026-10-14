@@ -1,0 +1,7 @@
+What is the administrator's email address of the chartered school with the fewest students enrolled in grades 1 through 12?
+
+Hint: Chartered schools are identified by a binary indicator where 1 represents a chartered school. Students enrolled in grades 1 through 12 refers to the total enrollment count for those grade levels.
+
+The database is the SQLite file `california_schools.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

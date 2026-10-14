@@ -1,0 +1,7 @@
+Please list the patient's ID if he or she has an abnormal level of red blood cell and is followed at the outpatient clinic.
+
+Hint: RBC < = 3.5 or RBC > = 6.0 means the patient has an abnormal level of red blood cell; 3.5 < RBC < 6.0 means the patient has a normal level of red blood cell; followed at the outpatient clinic refers to Admission = '-';
+
+The database is the SQLite file `thrombosis_prediction.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

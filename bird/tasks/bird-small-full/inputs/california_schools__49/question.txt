@@ -1,0 +1,7 @@
+Which different county has the most number of closed schools? Please provide the name of each school as well as the closure date.
+
+Hint: Closure date and closed date are synonyms; 'Closed' was mentioned in schools.StatusType.
+
+The database is the SQLite file `california_schools.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

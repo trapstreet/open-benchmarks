@@ -1,0 +1,7 @@
+For each account with gold credit cards, provide a comprehensive financial profile including the number of gold cards, location details, transaction history, balance statistics, loan information, and rank the accounts by their average balance.
+
+Hint: Transaction income refers to type = 'PRIJEM'; transaction expense refers to type = 'VYDAJ'; good loans refers to status = 'A'; bad loans refers to status = 'B'.
+
+The database is the SQLite file `financial.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

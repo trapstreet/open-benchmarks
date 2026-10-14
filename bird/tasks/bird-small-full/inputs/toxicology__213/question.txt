@@ -1,0 +1,7 @@
+What type of bond is there between the atoms TR004_8 and TR004_20?
+
+Hint: type of bond refers to bond_type; between the atoms TR004_8 and TR004_20 refers to atom_id = 'TR004_8' AND atom_id2 = 'TR004_20' OR another way around
+
+The database is the SQLite file `toxicology.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

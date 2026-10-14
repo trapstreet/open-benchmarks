@@ -1,0 +1,7 @@
+For accounts opened in Beroun after 1996, what are the yearly statistics including account owner demographics, transaction volumes, loan performance, and credit card distribution?
+
+Hint: Account owner demographics include gender distribution and average age. Transaction volumes include total income and expenses. Loan performance includes success rate calculated as successful loans divided by total loans. Statistics should be grouped by the year the account was opened.
+
+The database is the SQLite file `financial.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

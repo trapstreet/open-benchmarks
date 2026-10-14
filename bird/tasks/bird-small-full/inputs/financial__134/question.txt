@@ -1,0 +1,7 @@
+For the district with the highest number of crimes in 1996, provide details including the district name, region, population, number of crimes, percentage increase in crimes from 1995 to 1996, and how many accounts were opened there.
+
+Hint: A16 refers to the number of committed crimes in 1996; A15 refers to the number of committed crimes in 1995
+
+The database is the SQLite file `financial.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

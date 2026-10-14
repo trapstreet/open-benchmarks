@@ -1,0 +1,7 @@
+For magnet schools with over 500 SAT test takers, provide a comprehensive performance analysis including their SAT scores, rankings, poverty levels, and performance categories, sorted by total average SAT scores.
+
+Hint: Magnet schools refers to Magnet = 1; Total average SAT score is the sum of average reading, math, and writing scores; Poverty level is categorized based on the percentage eligible for free or reduced-price meals (FRPM).
+
+The database is the SQLite file `california_schools.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

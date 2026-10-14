@@ -1,0 +1,7 @@
+Provide the ID and age of patient with lactate dehydrogenase (LDH) between 100-300 index above the normal range.
+
+Hint: age refers to SUBTRACT(year(current_timestamp), year(Birthday)); lactate dehydrogenase (LDH) between 100-300 index above the normal range refers to LDH between 600 and 800;
+
+The database is the SQLite file `thrombosis_prediction.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

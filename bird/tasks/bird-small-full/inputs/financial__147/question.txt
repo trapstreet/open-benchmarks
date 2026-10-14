@@ -1,0 +1,7 @@
+What is the demographic and financial profile of female account owners in south Bohemia, broken down by district and age group, including their average transaction activity, net balance, loan amounts, and active loan rates?
+
+Hint: Female refers to gender = 'F'; south Bohemia refers to region A3 = 'south Bohemia'; age categories are Young (born after 1980), Middle-aged (born 1960-1980), and Senior (born before 1960); net balance = total income - total expense; active loans refer to loan status = 'A'
+
+The database is the SQLite file `financial.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

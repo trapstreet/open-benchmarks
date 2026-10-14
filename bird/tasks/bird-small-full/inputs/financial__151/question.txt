@@ -1,0 +1,7 @@
+For each district with withdrawal transactions, provide a comprehensive analysis including the total number and amount of withdrawals, demographic information, withdrawal per capita, and rank the districts by total withdrawal amount. Also categorize each district by unemployment level.
+
+Hint: Withdrawal transactions refer to type = 'VYDAJ'. District name refers to A2. Unemployment category is based on 1995 unemployment rate: High (>2.0), Medium (1.0-2.0), Low (<1.0).
+
+The database is the SQLite file `financial.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

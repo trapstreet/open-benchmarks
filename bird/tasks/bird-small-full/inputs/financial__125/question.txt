@@ -1,0 +1,7 @@
+For loan contracts which are still running where clients are in debt, list the district and state the percentage unemployment rate increment from 1995 to 1996.
+
+Hint: Unemployment increment rate in percentage = [(unemployment rate 1996 - unemployment rate 1995) / unemployment rate 2015] * 100; unemployment rate 1995 appears in the A12; unemployment rate 1996 appears in the A13; Loan contracts which are still running where client are in debt can be presented as status = 'D'
+
+The database is the SQLite file `financial.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

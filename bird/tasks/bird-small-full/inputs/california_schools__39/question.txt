@@ -1,0 +1,7 @@
+What is the average number of test takers from Fresno schools that opened between 1/1/1980 and 12/31/1980?
+
+Hint: between 1/1/1980 and 12/31/1980 means the year = 1980; Fresno is a county;
+
+The database is the SQLite file `california_schools.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

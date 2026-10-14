@@ -1,0 +1,7 @@
+For all clients who received their credit card on March 3rd, 1994, provide a comprehensive profile including their personal information, banking activity, loan history, and district characteristics. Categorize them as borrowers based on their age and loan status, and rank them by age within their gender group.
+
+Hint: Active loans refers to status = 'A'. Young borrower means age at card issue is less than 30 years old with at least one loan. Mature borrower means age at card issue is 30 or older with at least one loan.
+
+The database is the SQLite file `financial.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

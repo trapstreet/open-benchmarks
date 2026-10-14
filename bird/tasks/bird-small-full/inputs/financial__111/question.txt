@@ -1,0 +1,7 @@
+What are the comprehensive statistics for accounts opened in Litomerice in 1996, including client demographics, transaction activity, loan information, and quarterly distribution of account openings?
+
+Hint: Litomerice is a district name; PRIJEM refers to deposits/credits, VYDAJ refers to withdrawals/debits; loan status 'A' indicates good loans, 'B' indicates bad loans
+
+The database is the SQLite file `financial.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

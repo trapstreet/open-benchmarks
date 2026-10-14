@@ -1,0 +1,7 @@
+What are the demographics and financial statistics of account owners with running loan contracts in district 1, including their average remaining debt, gender distribution, age, card ownership, transaction activity, and account balances?
+
+Hint: Running loan contracts include status 'C' (running contract, OK so far) and status 'D' (running contract, client in debt). Remaining debt is calculated as loan amount minus total payments made (payments * duration).
+
+The database is the SQLite file `financial.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

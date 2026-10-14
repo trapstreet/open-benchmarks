@@ -1,0 +1,7 @@
+For in-patients, what is the average IgG concentration measured when they were age 50 or above?
+
+Hint: in-patient refers to Admission = '+'; age 50 and above refers to SUBTRACT(year(Examination Date), year(Birthday)) >= '50'; average anti-cardiolipin antibody (IgG) concentration refers to AVG(aCL IgG)
+
+The database is the SQLite file `thrombosis_prediction.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

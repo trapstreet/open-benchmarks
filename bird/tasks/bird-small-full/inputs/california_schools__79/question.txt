@@ -1,0 +1,7 @@
+For fully virtual schools in San Diego and Santa Barbara counties, which county has the most virtual schools? Provide comprehensive statistics including the count, breakdown of charter vs regular schools, enrollment figures, average free/reduced meal percentage, average SAT scores, and identify the largest virtual school by enrollment.
+
+Hint: Fully virtual schools refer to schools where Virtual = 'F'. Charter schools are identified by Charter School (Y/N) = 1. FRPM refers to Free or Reduced Price Meal program eligibility.
+
+The database is the SQLite file `california_schools.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

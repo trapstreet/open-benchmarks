@@ -1,0 +1,7 @@
+For the year that concluded on December 31, 1998, how many male patients on average were tested in the lab each month?
+
+Hint: the year that concluded on December 31, 1998 refers to Date BETWEEN '1998-01-01' AND '1998-12-31'; male refers to SEX = 'M'; calculation = DIVIDE(COUNT(ID), 12)
+
+The database is the SQLite file `thrombosis_prediction.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

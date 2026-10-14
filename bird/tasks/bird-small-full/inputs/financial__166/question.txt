@@ -1,0 +1,7 @@
+What is the comprehensive banking activity profile for accounts in Jesenik district, including the total number of accounts, transaction patterns, loan statistics with their repayment status, average balances, and the gender distribution of clients?
+
+Hint: Good loans refer to status = 'A'; bad loans refer to status = 'B'. PRIJEM represents incoming transactions and VYDAJ represents outgoing transactions.
+
+The database is the SQLite file `financial.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

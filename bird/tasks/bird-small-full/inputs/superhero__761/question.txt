@@ -1,0 +1,7 @@
+Among the male superheroes, list the super hero names of superheroes with weight greater than the 79% average weight of all superheroes.
+
+Hint: super hero names refers to superhero_name;male superheros refers to gender = 'Male';Calculation = weight_kg > MULTIPLY(AVG(weight_kg), 0.79)
+
+The database is the SQLite file `superhero.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

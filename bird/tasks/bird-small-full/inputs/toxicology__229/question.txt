@@ -1,0 +1,7 @@
+For molecule TR000, what are the bond types ranked by frequency, how many times does each bond type occur, and how many unique element pairs are connected by each bond type? Also indicate whether each bond type appears multiple times or just once, and show the molecule's label.
+
+Hint: TR000 is the molecule id; bond frequency refers to whether bond_count is greater than 1
+
+The database is the SQLite file `toxicology.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

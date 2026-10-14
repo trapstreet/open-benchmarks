@@ -1,0 +1,7 @@
+What is the ratio in percentage of Santa Clara County charter schools that are locally funded compared to charter schools with all other types of funding?
+
+Hint: Ratio in percentage = (count(locally funded charter schools in Santa Clara) / count(non-locally funded charter schools in Santa Clara)) * 100%
+
+The database is the SQLite file `california_schools.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

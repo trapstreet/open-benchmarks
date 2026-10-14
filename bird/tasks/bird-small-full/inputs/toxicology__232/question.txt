@@ -1,0 +1,7 @@
+Please list top three molecules that have single bonds between two atoms and are not carcinogenic in alphabetical order.
+
+Hint: label = '-' means molecules are not carcinogenic; single type bond refers to bond_type = '-'; list top three molecules refers to return molecule_id and order by molecule_id;
+
+The database is the SQLite file `toxicology.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

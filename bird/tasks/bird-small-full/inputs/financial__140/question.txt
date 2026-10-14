@@ -1,0 +1,7 @@
+What is the comprehensive financial profile of all accounts in the Pisek district, including the total number of accounts, average transactions per account, total deposits and withdrawals, average maximum balance, total credit cards issued, total loans issued, percentage of active loan amounts, and number of unique account owners?
+
+Hint: Active loans refer to status = 'A'; PRIJEM refers to deposits; VYDAJ refers to withdrawals; account owners refer to disposition type = 'OWNER'
+
+The database is the SQLite file `financial.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

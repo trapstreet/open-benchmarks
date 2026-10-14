@@ -1,0 +1,7 @@
+For the district with the second-highest number of crimes committed in 1995, provide a comprehensive breakdown of all male clients including their total count, the crime count for that year, total accounts, loans, credit cards, average dispositions per client, number of clients with loans, and age distribution across young (under 30), middle-aged (30-50), and senior (over 50) categories.
+
+Hint: Male refers to gender = 'M'; A15 refers to number of committed crimes in 1995; Age is calculated from birth_date to current date
+
+The database is the SQLite file `financial.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

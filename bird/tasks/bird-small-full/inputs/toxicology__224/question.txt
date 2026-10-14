@@ -1,0 +1,7 @@
+For all bonds connected to atom TR000_2, what are the bond details including the connected atoms, their elements, bond types, bond classifications, and the molecule's atom and bond counts?
+
+Hint: TR000_2 refers to atom_id2; bond classification includes 'Contains Chlorine' for bonds with chlorine atoms, 'Carbon-Carbon Bond' for bonds between two carbon atoms, and 'Other Bond Type' for remaining bonds
+
+The database is the SQLite file `toxicology.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

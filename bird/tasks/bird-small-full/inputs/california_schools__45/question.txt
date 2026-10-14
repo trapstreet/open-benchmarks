@@ -1,0 +1,7 @@
+For schools administered by Ricci Ulrich, provide a comprehensive performance analysis including their SAT scores in all three sections, total SAT score, rankings compared to other schools, FRPM eligibility rate, test participation rate, and how their writing scores compare to their district average.
+
+Hint: FRPM stands for Free or Reduced Price Meal. Test participation rate = (Number of Test Takers / Enrollment) * 100.
+
+The database is the SQLite file `california_schools.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

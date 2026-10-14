@@ -1,0 +1,7 @@
+For the 10th and 11th largest schools by K-12 enrollment, provide a comprehensive profile including their enrollment statistics, free meal eligibility rates, location details, school type, grade spans offered, and SAT performance metrics.
+
+Hint: K-12 refers to students in grades 1 through 12; Eligible free rate for K-12 = Free Meal Count (K-12) / Enrollment (K-12); Charter schools have Charter = 1
+
+The database is the SQLite file `california_schools.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

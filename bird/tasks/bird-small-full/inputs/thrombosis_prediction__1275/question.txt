@@ -1,0 +1,7 @@
+Among the patients who has a normal level of anti-centromere and a normal level of anti-SSB, how many of them are male?
+
+Hint: normal level of anti-centromere refers to CENTROMEA IN('negative', '0'); normal level of anti-SSB refers to SSB IN('negative', '0'); male refers to SEX = 'M';
+
+The database is the SQLite file `thrombosis_prediction.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

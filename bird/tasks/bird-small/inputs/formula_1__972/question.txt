@@ -1,0 +1,7 @@
+Which drivers who were born in 1971 and has the fastest lap time on the race? Give id and code of these drivers.
+
+Hint: born in 1971 refers to date of birth is 1971; has the fastest lap time refers to fastestLapTime has values
+
+The database is the SQLite file `formula_1.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

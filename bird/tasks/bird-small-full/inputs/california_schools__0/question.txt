@@ -1,0 +1,7 @@
+For the school with the highest free meal rate in Alameda County, what are its characteristics including whether it's a charter school, what grades it serves, its SAT performance level, and how much its free meal rate deviates from the county average?
+
+Hint: Free meal rate = Free Meal Count (K-12) / Enrollment (K-12). SAT performance levels are categorized as: Below Average (total score < 1200), Average (1200-1500), Above Average (> 1500), or No SAT Data if unavailable.
+
+The database is the SQLite file `california_schools.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

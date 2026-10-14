@@ -1,0 +1,7 @@
+For the patient who was diagnosed SLE on 1997/1/27, what was his/her original diagnose when he/she came to the hospital for the first time?
+
+Hint: 'SLE' AND original diagnose refers to diagnosis; 1997/1/27 refer to `Examination Date` = '1997-01-27'; first came to the hospital refers to patient.`First Date`
+
+The database is the SQLite file `thrombosis_prediction.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

@@ -1,0 +1,7 @@
+For accounts opened in 1993, provide a monthly breakdown showing the percentage of accounts from Decin district, average transaction statistics, and indicate whether each month's Decin percentage is above, below, or equal to the overall yearly average.
+
+Hint: A2 refers to district name. PRIJEM refers to income transactions and VYDAJ refers to expense transactions.
+
+The database is the SQLite file `financial.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

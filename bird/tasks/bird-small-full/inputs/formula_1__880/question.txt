@@ -1,0 +1,7 @@
+Paul di Resta was in the No. 853 race, what percent faster did he finish in the 853rd race than the next race for the fastest lap speed?
+
+Hint: "Paul di Resta" refers to drivers.forename = 'Paul' AND drivers.surname = 'di Resta'; "No. 853 race" = results.raceId = 853, "next race" = results.raceId = 854; "fastest lap speed" = results.fastestLapSpeed (text type, must convert to REAL for calculation), with "percent faster" formula: ((853-speed - 854-speed) * 100) / 853-speed.
+
+The database is the SQLite file `formula_1.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

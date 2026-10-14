@@ -1,0 +1,7 @@
+What's the fastest lap time ever in a race for Lewis Hamilton?
+
+Hint: fastest lap time ever refers to min(fastestLapTime); Lewis Hamilton refers to forename = 'Lewis' AND surname = 'Hamilton'
+
+The database is the SQLite file `formula_1.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

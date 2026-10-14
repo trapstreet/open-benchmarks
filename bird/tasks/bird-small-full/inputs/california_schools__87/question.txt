@@ -1,0 +1,7 @@
+What are the valid e-mail addresses of the administrator of the school located in the San Bernardino county, City of San Bernardino that belongs to a Unified School District and opened between 1/1/2009 to 12/31/2010 whose school types are public Intermediate/Middle Schools?
+
+Hint: Intermediate/Middle Schools refers to SOC = '62'; Unified School District refers to DOC = '54'; years between 2009 and 2010 can refer to 'between 1/1/2009 to 12/31/2010'
+
+The database is the SQLite file `california_schools.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

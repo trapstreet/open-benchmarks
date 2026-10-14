@@ -1,0 +1,7 @@
+For carcinogenic molecules that contain triple bonds, provide detailed statistics including atom counts, bond counts, carbon and nitrogen counts, and specifically identify how many nitrogen-to-nitrogen triple bonds and carbon-containing triple bonds exist in each molecule, categorizing them by their number of triple bonds.
+
+Hint: carcinogenic molecules refers to label = '+'; triple bonds refers to bond_type = '#'
+
+The database is the SQLite file `toxicology.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

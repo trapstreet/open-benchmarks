@@ -1,0 +1,7 @@
+For carcinogenic molecules, what is the percentage that don't contain fluorine, the average number of atoms per molecule, the average number of bonds in molecules with and without fluorine, and the average bond strength?
+
+Hint: Carcinogenic molecules have label = '+'; fluorine refers to element = 'f'; bond strength is calculated as 1 for single bonds ('-'), 2 for double bonds ('='), and 3 for triple bonds ('#')
+
+The database is the SQLite file `toxicology.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

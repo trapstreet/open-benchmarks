@@ -1,0 +1,7 @@
+How many more "discount" gas stations does the Czech Republic have compared to Slovakia?
+
+Hint: Czech Republic can be represented as the Country value in gasstations table is 'CZE'; Slovakia can be represented as the Country value in the gasstations table is 'SVK';  Computation of more "discount" gas stations= Total no. of discount gas stations in Czech Republic - Total no. of discount gas stations in Slovakia
+
+The database is the SQLite file `debit_card_specializing.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

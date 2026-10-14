@@ -1,0 +1,7 @@
+What is the most common illness that doctors identified among the patients whose lab work was done between 1/1/1985 and 12/31/1995?
+
+Hint: the most common illness refers to MAX(COUNT(Diagnosis)); lab work between 1/1/1985 and 12/31/1995 refers to `Examination Date` inclusively between '1985-01-01' and '1995-12-31 '
+
+The database is the SQLite file `thrombosis_prediction.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

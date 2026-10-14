@@ -1,0 +1,7 @@
+For the top 3 female clients with the largest loans, what are their loan details including total payments, interest paid, loan status, location, transaction activity, income category, and age?
+
+Hint: Female refers to gender = 'F'; total payments = monthly payments * duration; interest paid = total payments - loan amount; income category is based on total income compared to loan amount (High: >2x loan, Medium: >1x loan, Low: otherwise)
+
+The database is the SQLite file `financial.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

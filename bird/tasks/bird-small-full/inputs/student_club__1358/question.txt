@@ -1,0 +1,7 @@
+Who was the first one paid his/her dues? Tell the full name.
+
+Hint: Full name refers to first and last name; “first paid dues” means the earliest dues payment date.
+
+The database is the SQLite file `student_club.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

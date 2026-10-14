@@ -1,0 +1,7 @@
+In the race a driver set the lap record for the Austrian Grand Prix Circuit, how long did he spent at the pit stop at that same race?
+
+Hint: lap record means the fastest time recorded which refers to time, how long spent at pitstop refers to duration
+
+The database is the SQLite file `formula_1.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

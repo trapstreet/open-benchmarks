@@ -1,0 +1,7 @@
+What is the ratio of Hydrogen elements in molecule ID TR006? List the ratio with its label.
+
+Hint: hydrogen refers to element = 'h'; ratio = DIVIDE(SUM(element = 'h'), count(element)) where molecule_id = 'TR006' ; label = '+' mean molecules are carcinogenic; label = '-' means molecules are non-carcinogenic
+
+The database is the SQLite file `toxicology.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

@@ -1,0 +1,7 @@
+What number of patients with a degree of thrombosis level 2 and ANA pattern of only S, have a level of anti-Cardiolipin antibody (IgM) 20% higher than average?
+
+Hint: thrombosis level 2 refers to Thrombosis = 2; ANA pattern of only S refers to `ANA Pattern` = 'S'; average anti-Cardiolipin antibody (IgM) refers to AVG(`aCL IgM`); 20% higher than average means greater than 1.2 times the average value.
+
+The database is the SQLite file `thrombosis_prediction.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

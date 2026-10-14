@@ -1,0 +1,7 @@
+For schools with total enrollment exceeding 500 students, show me their enrollment details, free meal eligibility rates, charter status, and SAT performance. Group them by county and categorize by FRPM levels (High: 75%+, Medium: 50-75%, Low: <50%). Only include schools where either the FRPM percentage is above 60% or more than 30% of SAT test takers scored 1500 or higher. Rank schools within each county by enrollment size and within each FRPM category by total SAT scores.
+
+Hint: Total enrollment = Enrollment (K-12) + Enrollment (Ages 5-17); FRPM percentage refers to Percent (%) Eligible FRPM (K-12); Charter schools indicated by Charter School (Y/N) = 1; Total SAT score = AvgScrRead + AvgScrMath + AvgScrWrite
+
+The database is the SQLite file `california_schools.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

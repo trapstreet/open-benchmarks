@@ -1,0 +1,7 @@
+Are there more male patients with creatinine not within the normal range than female? True or False?
+
+Hint: creatinine not within the normal range refers to CRE >= 1.5; male refers to SEX = 'M'; female refers to SEX = 'F'; need to compare whether there are more male patients than female patients with abnormal creatinine levels
+
+The database is the SQLite file `thrombosis_prediction.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

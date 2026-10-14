@@ -1,0 +1,7 @@
+For non-chartered schools in Los Angeles County with a free meal rate below 0.18%, provide details about each school including their enrollment, free meal count, exact free meal percentage, their rank within the county, and statistics about how many schools in the county fall into this low free meal category.
+
+Hint: non-chartered schools refer to Charter = 0; free meal rate = Free Meal Count (K-12) * 100 / Enrollment (K-12)
+
+The database is the SQLite file `california_schools.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

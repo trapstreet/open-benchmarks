@@ -1,0 +1,7 @@
+For the examinations done after 1997/1/1, how many of them have the result of an inactivated partial prothrom bin time?
+
+Hint: examinations done after 1997/1/1 refers to `Examination Date` > '1997-01-01'; normal activated partial prothrom bin time refesr to APTT < 45;
+
+The database is the SQLite file `thrombosis_prediction.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

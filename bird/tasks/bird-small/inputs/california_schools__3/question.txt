@@ -1,0 +1,7 @@
+For the non-charter school with more than 100 students that has the highest number of FRPM-eligible K-12 students, provide its name, location details, unabbreviated mailing address, website, enrollment statistics, SAT performance metrics, and determine whether it performs unexpectedly well or poorly given its FRPM rate.
+
+Hint: Non-charter schools have Charter School (Y/N) = 0. FRPM stands for Free or Reduced Price Meal program. High-performing despite high FRPM means FRPM percentage > 70% and percentage of students scoring >= 1500 on SAT > 20%. Low-performing despite low FRPM means FRPM percentage < 30% and percentage of students scoring >= 1500 on SAT < 10%.
+
+The database is the SQLite file `california_schools.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

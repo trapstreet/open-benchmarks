@@ -1,0 +1,7 @@
+Indicate the top source of funds received in September 2019 based on their amount.
+
+Hint: top source funds refers to MAX(source); September 2019 means date_received BETWEEN '2019-09-01' and '2019-09-30'
+
+The database is the SQLite file `student_club.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

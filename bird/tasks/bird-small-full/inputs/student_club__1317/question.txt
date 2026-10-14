@@ -1,0 +1,7 @@
+Among the students from the Student_Club who attended the event "Women's Soccer", how many of them want a T-shirt that's in medium size?
+
+Hint: Students refer to members; Women's Soccer is an event name; T-shirt that is in medium size refers to t_shirt_size = 'Medium'
+
+The database is the SQLite file `student_club.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

@@ -1,0 +1,7 @@
+What is the percentage of the events that went over budget?
+
+Hint: went over budget refers to a budget record where remaining < 0; a "over-budget event" is an event with at least one over-budget budget record; percentage = (Number of over-budget events ÷ Total number of events) × 100, where "Number of over-budget events" = COUNT(DISTINCT event_id with remaining < 0), "Total number of events" = COUNT(DISTINCT event.event_id)
+
+The database is the SQLite file `student_club.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

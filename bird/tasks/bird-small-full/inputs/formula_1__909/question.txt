@@ -1,0 +1,7 @@
+Among all European Grand Prix races, what is the percentage of the races were hosted in Germany?
+
+Hint: European Grand Prix races refers to races.name = 'European Grand Prix'; "hosted in Germany" refers to circuits.country = 'Germany' (circuits table links to races via circuitId); percentage = (COUNT(DISTINCT races.raceId where circuits.country = 'Germany' and races.name = 'European Grand Prix') ÷ COUNT(DISTINCT races.raceId where races.name = 'European Grand Prix')) × 100
+
+The database is the SQLite file `formula_1.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.

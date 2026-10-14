@@ -1,0 +1,7 @@
+Among the superheroes with blue eyes, how many of them have the super power of "Agility"?
+
+Hint: blue eyes refers to the eye colour = 'Blue' in the colour table; super power of "Agility" refers to power_name = 'Agility'
+
+The database is the SQLite file `superhero.sqlite` delivered with this question. Read it; do not modify it.
+
+Answer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's.
