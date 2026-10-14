@@ -7,12 +7,25 @@ answers are held privately and graded on the site.
 
 | Task | Questions | Databases |
 |---|---|---|
-| `tasks/bird-small` | 104 — Harbor's parity subset (150, seed 42) on the 8 small databases | 8 small |
-| `tasks/bird-small-full` | 1,028 — every dev question on the 8 small databases | 8 small |
+| `tasks/bird-small` | 104 — Harbor's parity subset (150, seed 42) on the 8 small databases, all of them | 8 small |
+| `tasks/bird-small-full` | 1,027 — every dev question on the 8 small databases (1,028) but one, below | 8 small |
 
 `bird-large` (the remaining 46 parity questions, on european_football_2, codebase_community and
 card_games, 262–598 MB each) waits until the grader can hold databases that size. `bird-small`
 will not change when it ships: it becomes a second task, not a new version.
+
+## Left out
+
+| Case | Reason |
+|---|---|
+| `financial__178` | The reference query reads the clock (an age in fractional years from `julianday('now')`) and its answer changes from one second to the next, so no answer can match it when graded. Not in Harbor's 104, so `bird-small` keeps all 104. |
+
+The builder finds these itself: every reference query that reads the clock (`'now'`,
+`CURRENT_DATE`/`TIME`/`TIMESTAMP`, or `date()`, `time()`, `datetime()`, `julianday()`, `unixepoch()`
+with no argument) is run twice, 1.5 s apart, and left out if the two answers differ. The other 36
+that read the clock (3 of them in `bird-small`: `financial__158`, `financial__181`,
+`thrombosis_prediction__1232`) stay; their reference query is run again at grading time, as BIRD's
+own evaluation runs every reference query, so the answer is the one for the day it is graded.
 
 Differences from Harbor's BIRD: the database schema is **not** in the question — finding it is part
 of what a database tool is tested on — so scores here run lower and are not directly comparable.

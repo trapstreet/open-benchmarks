@@ -734,9 +734,6 @@ cases:
 - id: financial__177
   description: "What is the sum that client number 4's account has following transaction 851? Who owns this account, a man or a woman?\n\nThe database is the SQLite file `financial.sqlite` delivered with this question. Read it; do not modify it.\n\nAnswer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's."
   tags: [simple, financial]
-- id: financial__178
-  description: "What are the complete details of client number 9 including their gender, birth date, credit card type, when the card was issued, customer status, total number of accounts owned, and how long they've had their most recent card?\n\nHint: Customer status is determined by card type: gold card holders are Premium Customers and classic card holders are Regular Customers.\n\nThe database is the SQLite file `financial.sqlite` delivered with this question. Read it; do not modify it.\n\nAnswer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's."
-  tags: [challenging, financial]
 - id: financial__179
   description: "How much, in total, did client number 617 pay for all of the transactions in 1998?\n\nThe database is the SQLite file `financial.sqlite` delivered with this question. Read it; do not modify it.\n\nAnswer with one SQLite query that returns exactly what the question asks for. Put it last in your reply, in a ```sql code block. Only the last ```sql block is graded: it is run against the same database and its result rows are compared with the reference query's."
   tags: [simple, financial]

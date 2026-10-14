@@ -13,7 +13,10 @@ the questions and hints of the BIRD dev set (`birdsql/bird_sql_dev_20251106`, re
 Changes made here, released under the same license:
 - Only the 8 databases under 100 MB are included (the other 3 wait for `bird-large`).
 - `bird-small` is the part of Harbor's 150-question parity subset (seed 42, laude-institute/harbor
-  `registry.json` at `5fcf07f5af37eba19db389c7d8916743e4591ff5`) that falls on those 8 databases.
+  `registry.json` at `5fcf07f5af37eba19db389c7d8916743e4591ff5`) that falls on those 8 databases:
+  104 questions, all of them.
+- `bird-small-full` is every dev question on those 8 databases except `financial__178`, whose
+  reference answer changes every second (it reads the clock): 1,027 of 1,028. See `README.md`.
 - Each question is reworded into a case statement: the original question and hint, the database
   file name, and the answer format. The reference SQL is not included here.
 

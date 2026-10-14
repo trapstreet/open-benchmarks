@@ -15,7 +15,7 @@ with `tp run`; the board links every row to the exact commit it ran.
 | Tools in front of the agent | 469 over MCP (about 256K characters of tool definitions) | A short list per server: file operations, or SQL and schema inspection | Each harness's own, or one shared set of three | Whatever the solver brings: a database MCP server, `sqlite3`, or code |
 | Command line vs MCP | Both generated from AppWorld's API documentation, so they carry the same names, descriptions and errors and differ only in how they reach the agent | The tools people already use (the shell, `psql`) against the published MCP server for the same service | — | — |
 | So a difference means | The way tools reach the agent matters, including what a large tool list costs in context | The real CLI beats or trails the real MCP server, tool quality included | The agent loop matters | The database tool, or the agent around it, finds and queries the right data |
-| Cases | 417 in `test_challenge` | 71 that run without accounts | 25 (20 hard, 5 easy) | 104 (`bird-small`), 1,028 (`bird-small-full`) |
+| Cases | 417 in `test_challenge` | 71 that run without accounts | 25 (20 hard, 5 easy) | 104 (`bird-small`), 1,027 (`bird-small-full`) |
 | Task text | Distributed encrypted; this repository has task ids only | Public on GitHub with the verification scripts; this repository has task ids only | Public; reference answers held privately | Public, with the databases |
 | Graded on | The apps' database state, including changes nobody asked for | The final files or tables, by MCPMark's scripts | The final answer | The query's result rows, by execution |
 
